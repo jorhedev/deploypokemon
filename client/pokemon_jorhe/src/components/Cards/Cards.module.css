@@ -1,0 +1,32 @@
+.container {
+  flex-direction: column;
+  display: flex;
+  min-height: calc(100vh);
+  width: 100%;
+  padding: 20px;
+  }
+  
+  .cards {
+    margin-top: 30px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    text-transform: capitalize;
+
+  }
+
+  .cards p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  }
+
